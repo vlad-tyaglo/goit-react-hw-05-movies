@@ -6,7 +6,6 @@ import Sceleton from "components/Sceleton/Sceleton";
 import { Container, MovieCard, Title, Overview, Genres, SecondaryTitle, AdditionalInfoCard, Link, ListItem, List } from "../pages/MovieDetails.styled";
 
 const defaultImage = 'https://raw.githubusercontent.com/yuriykosh/goit--team-project--js/main/src/images/main-home/poster-filler-desktop.jpeg';
-// https://cdn.the-village.ru/the-village.ru/post_image-image/1jHOb464jtkGWX8LGBnHHw-article.png
 const MovieDetails = () => {
     const { id } = useParams();
     const location = useLocation();

@@ -21,12 +21,12 @@ export const ListItem = styled.li`
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
   & img {
-    /* flex-grow: 1; */
+
   }
 `;
 
 export const ActorInfo = styled.div`
-  /* flex-grow: 1; */
+
   box-sizing: border-box;
   height: 112px;
   padding: 20px 12px;
